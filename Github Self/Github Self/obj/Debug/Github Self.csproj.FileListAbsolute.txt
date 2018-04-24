@@ -1,0 +1,6 @@
+G:\Github\Github-Self\Github-Self\Github Self\Github Self\bin\Debug\Github Self.exe.config
+G:\Github\Github-Self\Github-Self\Github Self\Github Self\bin\Debug\Github Self.exe
+G:\Github\Github-Self\Github-Self\Github Self\Github Self\bin\Debug\Github Self.pdb
+G:\Github\Github-Self\Github-Self\Github Self\Github Self\obj\Debug\Github Self.csprojResolveAssemblyReference.cache
+G:\Github\Github-Self\Github-Self\Github Self\Github Self\obj\Debug\Github Self.exe
+G:\Github\Github-Self\Github-Self\Github Self\Github Self\obj\Debug\Github Self.pdb
