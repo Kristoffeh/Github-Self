@@ -10,7 +10,7 @@ namespace Github_Self
     {
         static void Main(string[] args)
         {
-            const string Version = "1.4";
+            const string Version = "2.10";
 
             Console.WriteLine("// GITHUB SELF //");
             Console.WriteLine("");
@@ -31,6 +31,7 @@ namespace Github_Self
                         Console.WriteLine("» Commands available");
                         Console.WriteLine("» !help");
                         Console.WriteLine("» !git");
+                        Console.WriteLine("» !version");
                         break;
 
                     case "!git":
