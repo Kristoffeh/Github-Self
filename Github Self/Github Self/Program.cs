@@ -10,7 +10,7 @@ namespace Github_Self
     {
         static void Main(string[] args)
         {
-            const string Version = "2.10";
+            const string Version = "2.2";
 
             Console.WriteLine("// GITHUB SELF //");
             Console.WriteLine("");
@@ -30,12 +30,11 @@ namespace Github_Self
                     case "!help":
                         Console.WriteLine("» Commands available");
                         Console.WriteLine("» !help");
-                        Console.WriteLine("» !git");
+                        Console.WriteLine("» !move");
                         Console.WriteLine("» !version");
                         break;
 
-                    case "!git":
-                        Console.WriteLine("Processing transfer..");
+                    case "!move":
 
                         string sourcePath = "C:/xampp/htdocs";
                         string targetPath = "G:/Github/HEX-Design/HEX-Design";
@@ -52,8 +51,7 @@ namespace Github_Self
                         {
                             string[] files = System.IO.Directory.GetFiles(sourcePath);
 
-                            Console.Write("Files has been moved to the specified location.");
-                            Console.WriteLine("");
+                            Console.WriteLine(DateTime.UtcNow + " - Transfer successful");
 
                             // Copy the files and overwrite destination files if they already exist. 
                             foreach (string s in files)
